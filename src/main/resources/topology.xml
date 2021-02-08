@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userns:entities xmlns:userns="/jaxb/gen" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="/jaxb/gen topology.xsd ">
+     <userns:class key="Transceiver">  
+      <userns:entity key="T/2345"/>
+      <userns:entity key="T/2347"/>
+      <userns:entity key="T/0032"/>
+      <userns:entity key="T/0031"/>
+    </userns:class>
+    <userns:class key="Link">
+      <userns:entity key="Bartrum-X5"/>
+      <userns:entity key="Whisper-A4"/>
+      <userns:entity key="Matfold-A4"/>
+    </userns:class>
+    <userns:class key="Fibre">
+      <userns:entity key="X7898980"/>
+      <userns:entity key="M60"/>
+    </userns:class>
+    <userns:class key="Wire">
+      <userns:entity key="X7898980"/>
+      <userns:entity key="M60"/>
+    </userns:class>
+  </userns:entities>
+ 
+
+
+
+
+
+
+	

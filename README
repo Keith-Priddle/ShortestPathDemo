@@ -1,0 +1,21 @@
+Test for SysMech
+
+I have used JAXB for creation of the java classes from the supplied XSD file.
+
+The topology provided I have split into two files ENTITIES & ASOCIATIONS
+
+These XML files are then unmarshalled passing details into Arrays.
+
+These arrays are passed into the method which implements the Breadth First Search (BSF) alogorithm to
+determine the shortest path in a unidirectional graph representation of the network.
+
+If you want to change to bidirectional you can uncomment the entry in the ShortestPath.java file at
+line 118
+
+Due to the nature of this test I have made the decision to not use a JUnit TDD approach although 
+I have put a single test in place which is basically just determining that it is not needed. More of a 
+place holder to signify the approach I would take in a normal production development.
+
+I hope that my assumption of it being more of an algorithm test is not incorrect.
+
+Run the application and input information for start and end points when prompted in console.
